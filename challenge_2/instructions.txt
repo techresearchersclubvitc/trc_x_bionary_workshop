@@ -1,0 +1,43 @@
+==============================
+Dynamic Greeting Card Challenge
+==============================
+
+Objective:
+----------
+Complete the GreetingCard component in Next.js so that:
+
+1. Clicking the button toggles the surprise message (🎉 You got a surprise! 🎉).
+2. The button text should dynamically change between "Show Surprise" and "Hide Surprise".
+
+Files Provided:
+---------------
+- components/GreetingCard.js  → The main component (partially implemented).
+- styles/GreetingCard.module.css  → CSS for styling the card and surprise message.
+- pages/index.js  → Home page that renders multiple GreetingCard components.
+
+Tasks:
+------
+1. Add state toggle logic:
+   - Use useState to manage the visibility of the surprise message.
+   - The state variable is already declared as `showSurprise`.
+
+2. Add button click handler:
+   - Make the button toggle the `showSurprise` state when clicked.
+
+3. Update button text dynamically:
+   - If `showSurprise` is true, display "Hide Surprise".
+   - If `showSurprise` is false, display "Show Surprise".
+
+Hints:
+------
+- Use `onClick` on the <button> to trigger a function that toggles the state.
+- Use a ternary operator (`condition ? valueIfTrue : valueIfFalse`) to set the button text dynamically.
+- Apply the button CSS class `styles.button` from `GreetingCard.module.css` to make it look nice.
+
+Expected Behavior:
+------------------
+1. The page shows multiple greeting cards.
+2. Each card displays a message like:
+   "Happy Birthday, Aditya!"
+3. Clicking the button shows or hides the surprise message.
+4. Button text changes correctly between "Show Surprise" and "Hide Surprise".
