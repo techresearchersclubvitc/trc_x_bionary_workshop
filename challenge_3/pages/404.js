@@ -1,5 +1,5 @@
 import Layout from '../components/Layout';
-import Link from '@/my-app/node_modules/next/link';
+import Link from 'next/link';
 import styles from '../styles/CTF.module.css';
 
 export default function Custom404() {
