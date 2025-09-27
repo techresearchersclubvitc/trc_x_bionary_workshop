@@ -1,0 +1,95 @@
+# NEXT.JS CTF NAVIGATION CHALLENGE - INSTRUCTIONS
+
+## OBJECTIVE
+Navigate through a series of web pages using Next.js routing concepts, extract the first word from each page, and form a secret message to find the final flag.
+
+## SETUP INSTRUCTIONS
+
+1. Prerequisites:
+   - Node.js (version 16 or higher)
+   - npm or yarn package manager
+
+2. Installation:
+cd nextjs-ctf-challenge
+npm install
+npm run dev
+
+
+
+3. Open your browser to: http://localhost:3000
+
+## CHALLENGE RULES
+
+1. START: Begin at the home page (http://localhost:3000)
+2. NAVIGATE: Use the hints provided on each page to navigate to the next location
+3. EXTRACT: Copy the first word from each page's main content
+4. MANUAL NAVIGATION: You must type URLs manually in the browser address bar
+5. NO CLICKING LINKS: This is a navigation skills test - figure out the URLs yourself!
+
+## CHALLENGE FLOW
+
+Page 1: /welcome
+- Extract: First word from the main content
+- Follow: Navigation hint to find next page
+
+Page 2: /start  
+- Extract: First word from the main content
+- Follow: Navigation hint to find next page
+
+Page 3: /classroom
+- Extract: First word from the main content
+- Follow: Navigation hint to find next page
+
+Page 4: /library
+- Extract: First word from the main content  
+- Follow: Navigation hint to find next page
+
+Page 5: /vault
+- Extract: First word from the main content
+- Combine all 5 words to form the final destination
+
+## ROUTING CONCEPTS TESTED
+
+✅ Static Routing: Basic page navigation (/welcome, /start)
+✅ URL Construction: Converting hints to valid routes
+✅ Manual Navigation: Understanding Next.js file-based routing
+✅ Problem Solving: Interpreting clues to find correct paths
+✅ Pattern Recognition: Understanding URL structure patterns
+
+## HINTS & TIPS
+
+- Read the hints carefully - they describe the type of place you need to find
+- Think about common web page naming conventions
+- Use lowercase letters for URLs
+- Convert spaces to hyphens for multi-word routes
+- If you get a 404, check your URL spelling and structure
+
+## WINNING CONDITION
+
+Successfully navigate to the final flag page by:
+1. Collecting all 5 words from the pages
+2. Forming them into a sentence
+3. Converting the sentence to a valid URL format
+4. Finding the flag: CTF{NAVIGATION_MASTER_2025}
+
+## DIFFICULTY LEVEL
+Beginner to Intermediate - Perfect for learning Next.js routing basics!
+
+## LEARNING OUTCOMES
+
+After completing this challenge, you will understand:
+- Next.js file-based routing system
+- Static route creation and navigation
+- URL structure and naming conventions  
+- Manual navigation techniques
+- Basic Next.js project structure
+
+## SUPPORT
+
+If you're stuck:
+1. Double-check your URL spelling
+2. Review the hint more carefully
+3. Think about what type of place the hint describes
+4. Remember: all routes are single words or hyphenated phrases
+
+Good luck, Detective! 🕵️‍♀️
